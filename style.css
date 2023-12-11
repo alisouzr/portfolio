@@ -39,6 +39,9 @@ a {
   justify-content: end;
 }
 
+.work h1 {
+  font-size: 2.5rem;
+}
 
 ul {
   list-style: none;
@@ -71,6 +74,9 @@ li {
   text-align: end;
 }
 
+.intro-me p {
+  text-align: start;
+}
 
 a:link {
   text-decoration: none;
@@ -86,4 +92,10 @@ a:hover {
 
 a:active {
   text-decoration: underline;
+}
+
+@media only screen and (min-width: 758px) {
+  .intro-me {
+    padding-left: 0%;
+  }
 }
