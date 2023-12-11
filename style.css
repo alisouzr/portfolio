@@ -51,11 +51,25 @@ li {
   margin-left: 6px;
 }
 
-.sobre {
+.content {
   margin-top: 80px;
   margin: 80px 10px;
+  padding: 3%
 }
 
+.work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.intro-me {
+  width: 60%;
+  padding-left: 40%;
+  justify-items: end;
+  align-items: end;
+  text-align: end;
+}
 
 
 a:link {
