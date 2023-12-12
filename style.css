@@ -1,10 +1,10 @@
 body {
   background-color: black;
-  color: #ff6666;
+  color: white;
   margin: 0;
   font-family: 'Kalnia', serif;
-
 }
+
 
 .header-top-site {
   top: 0;
@@ -55,16 +55,16 @@ li {
   margin-left: 6px;
 }
 
-.content {
-  margin-top: 80px;
-  margin: 80px 10px;
-  padding: 3%
-}
+
 
 .work {
+  background-image: url("rosina.jpg");
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 80px 0;
+  align-items: center;
+  height: 30em;
 }
 
 .intro-me {
