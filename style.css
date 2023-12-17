@@ -59,7 +59,7 @@ li {
 
 
 .work {
-  background-image: url("rosina.jpg");
+  background-image: url("images/rosina.jpg");
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
