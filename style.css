@@ -42,6 +42,7 @@ a {
 
 .work h1 {
   font-size: 2.5rem;
+  margin: 0;
 }
 
 ul {
@@ -62,14 +63,12 @@ li {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 80px 0;
-  align-items: center;
-  height: 30em;
+  padding: 80px 1.5em;
+  height: 32em;
 }
 
 .intro-me {
-  width: 60%;
-  padding-left: 40%;
+  padding-left: 20%;
   justify-items: end;
   align-items: end;
   text-align: end;
@@ -77,6 +76,7 @@ li {
 
 .intro-me p {
   text-align: start;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .work .btn-contact-first {
@@ -85,12 +85,81 @@ li {
   justify-content: end;
 }
 
-.btn-contact-first button {
-  background-color: transparent;
-}
 
 .btn-contact-first button {
+  background-color: transparent;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 16px;
+  border-color: white;
   color: white;
+  font-weight: 900;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+  justify-content: end;
+  margin-right: 1em;
+  align-items: center;
+}
+
+.text-about {
+  width: 84%;
+}
+
+.text-about p {
+  text-indent: 3em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.img-about {
+  width: 70%;
+}
+
+.img-about img {
+  width: 100%;
+}
+
+.img-about figure {
+  margin: 0;
+}
+
+.img-about figure p {
+  margin: 0;
+}
+
+.project-Anx8{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-Anx8 p{
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.project-Anx8 img{
+  width: 100%;
+}
+
+.project-Resitech{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-Resitech p{
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.project-Resitech img{
+  width: 100%;
 }
 
 a:link {
@@ -109,9 +178,68 @@ a:active {
   text-decoration: underline;
 }
 
+@media only screen and (min-width: 375px) {
+  .arrow-about {
+    margin-left: 13em;
+  }
+}
 
-@media only screen and (min-width: 758px) {
+@media only screen and (min-width: 425px) {
+  .work h1 {
+    font-size: 3.5rem;
+  }
+
+  .work p {
+    font-size: 1.5em;
+  }
+
+  .arrow-about {
+    margin-left: 16em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
   .intro-me {
+    width: 40%;
     padding-left: 0%;
+  }
+
+  .work {
+    align-items: center;
+  }
+
+  .text-about {
+    margin-right: 4.5em;
+    width: 50%;
+  }
+
+  .text-about p {
+    font-size: 1.4em;
+  }
+
+  .img-about {
+    width: 30%;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .intro-me {
+    width: 50%;
+  }
+
+  .intro-me p {
+    font-size: 2em;
+  }
+
+}
+
+@media only screen and (min-width: 1440px) {
+  .text-about h1 {
+    font-size: 3em;
+  }
+
+  .text-about p {
+    font-size: 2.4em;
   }
 }

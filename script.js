@@ -7,3 +7,9 @@ window.addEventListener("scroll", function() {
   var work = document.querySelector(".work");
   work.style.opacity = 1 - window.scrollY / 500;
 })
+
+window.addEventListener("scroll", function() {
+  var about = document.querySelector(".about");
+  about.style.opacity = 0 + window.scrollY / 500;
+
+})
