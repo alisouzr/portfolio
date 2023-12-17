@@ -130,10 +130,16 @@ li {
   margin: 0;
 }
 
-.projects h2 {
+.projects h1 {
   text-align: center;
   color: #f8fdaf;
   margin: 2.5em 0 0;
+}
+
+.projects h2 {
+  text-align: center;
+  color: #f8fdaf;
+  margin: 0 0 2.5em;
 }
 
 .project-Resitech {
@@ -152,19 +158,19 @@ li {
   width: 100%;
 }
 
-.project-toDoList {
+.project-peraMusic {
   width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.project-toDoList p {
+.project-peraMusic p {
   font-size: 1.5em;
   margin-bottom: 0;
 }
 
-.project-toDoList img {
+.project-peraMusic img {
   width: 100%;
 }
 
