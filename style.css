@@ -130,6 +130,12 @@ li {
   margin: 0;
 }
 
+.projects h2 {
+  text-align: center;
+  color: #f8fdaf;
+  margin: 2.5em 0 0;
+}
+
 .project-Resitech {
   width: 100%;
   display: flex;
