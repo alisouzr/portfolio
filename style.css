@@ -130,35 +130,51 @@ li {
   margin: 0;
 }
 
-.project-Anx8{
+.project-Anx8 {
   width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.project-Anx8 p{
+.project-Anx8 p {
   font-size: 1.5em;
   margin-bottom: 0;
 }
 
-.project-Anx8 img{
+.project-Anx8 img {
   width: 100%;
 }
 
-.project-Resitech{
+.project-Resitech {
   width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.project-Resitech p{
+.project-Resitech p {
   font-size: 1.5em;
   margin-bottom: 0;
 }
 
-.project-Resitech img{
+.project-Resitech img {
+  width: 100%;
+}
+
+.project-toDoList {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-toDoList p {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.project-toDoList img {
   width: 100%;
 }
 
