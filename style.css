@@ -18,7 +18,8 @@ body {
   transition-duration: 0.5s;
 }
 
-a {
+.title a,
+.nav-btn a {
   color: #f8fdaf;
 }
 
@@ -131,6 +132,7 @@ li {
 }
 
 .projects h1 {
+  width: 100%;
   text-align: center;
   color: #f8fdaf;
   margin: 2.5em 0 0;
@@ -174,8 +176,6 @@ li {
   width: 100%;
 }
 
-
-
 a:link {
   text-decoration: none;
 }
@@ -193,7 +193,15 @@ a:active {
 }
 
 .projects a {
+  color: white;
+}
+
+.projects div:last-child a {
   text-decoration: underline;
+}
+
+footer p {
+  text-align: center;
 }
 
 @media only screen and (min-width: 375px) {
@@ -239,6 +247,19 @@ a:active {
     width: 30%;
   }
 
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .projects a {
+    width: 50%;
+  }
+
+  .projects div:last-child {
+    width: 100%;
+  }
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -250,6 +271,13 @@ a:active {
     font-size: 2em;
   }
 
+  .projects {
+    justify-content: center;
+  }
+
+  .projects a {
+    width: 40%;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
@@ -259,5 +287,9 @@ a:active {
 
   .text-about p {
     font-size: 2.4em;
+  }
+
+  .projects a {
+    width: 30%;
   }
 }
