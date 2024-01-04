@@ -4,3 +4,4 @@ Our project was one of those selected to participate in the Amazon CPA, which wa
 
 https://github.com/alisouzr/portfolio/assets/79667413/7d5177bd-087f-4c40-895d-a0bd36fd4988
 
+portfolio - https://alisouzr.github.io/portfolio/
