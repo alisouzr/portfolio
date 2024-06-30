@@ -144,6 +144,22 @@ li {
   margin: 0 0 2.5em;
 }
 
+.project-register-tkinter {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.project-register-tkinter p {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.project-register-tkinter img {
+  width: 100%;
+}
+
 .project-Resitech {
   width: 100%;
   display: flex;
@@ -154,6 +170,8 @@ li {
 .project-Resitech p {
   font-size: 1.5em;
   margin-bottom: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .project-Resitech img {
@@ -207,6 +225,12 @@ footer p {
 @media only screen and (min-width: 375px) {
   .arrow-about {
     margin-left: 13em;
+  }
+  .btn-contact-first button:hover{
+    cursor: pointer;
+  }
+  .projects a:hover{
+    cursor: pointer;
   }
 }
 
