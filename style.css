@@ -160,6 +160,7 @@ li {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .project-IAra p {
@@ -176,6 +177,7 @@ li {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .project-hyperautomation p {
